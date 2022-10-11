@@ -1,6 +1,8 @@
 # leetcode856 括号的分数
 
-## 计数求解
+[括号的分数](https://leetcode.cn/problems/score-of-parentheses/)
+
+## 1. 计数求解
 
 ```c++
 class Solution {
@@ -43,3 +45,5 @@ public:
 (()) 深度为2 2**(2-1) = 2
 
 ((())) 深度为3 2**(3-1) = 4
+
+2. 利用栈
